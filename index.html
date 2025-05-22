@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Oman's Premier Solar Street Lighting Solutions - Alwejha Group delivers energy-efficient MEP smart lighting systems across Muscat, Salalah, Sohar & all Oman regions. Get cost-effective, durable solar-powered street lights with 10-year warranty.">
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="description" content="Oman's #1 Solar Street Lighting Experts - Alwejha Group delivers smart, energy-efficient solar lighting solutions across Muscat, Salalah, Sohar & all regions. Get certified MEP installations with 10-year warranty.">
+  <meta name="robots" content="index, follow">
   <meta name="geo.region" content="OM">
-  <meta name="keywords" content="Solar Street Lights Oman, Solar Lighting Muscat, Outdoor Solar Lights Salalah, Smart Street Lighting Sohar, Renewable Energy Solutions Oman, Municipal Lighting Systems, Solar-powered Street Lights, Oman Green Energy Projects">
-  <title>Solar Street Lighting Solutions Oman | Alwejha Group MEP Experts</title>
+  <meta name="keywords" content="Solar Street Lights Oman, Solar Lighting Muscat, Outdoor Solar Solutions Salalah, Smart Street Lighting Sohar, Renewable Energy Oman, Municipal Lighting Systems, Solar-powered Infrastructure, Oman Green Energy Projects">
+  <title>Premium Solar Street Lighting Solutions Oman | Alwejha Group MEP Experts</title>
   <link rel="canonical" href="https://solar-street-lighting-oman.alwejhagroup.com/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
-    /* Critical CSS */
     :root {
       --primary: #003366;
       --secondary: #00B4D8;
       --accent: #FF6B6B;
-      --tech-gradient: linear-gradient(135deg, #003366 0%, #00B4D8 100%);
+      --tech-gradient: linear-gradient(135deg, #003366 0%, #007EA7 100%);
     }
-    
+
     * {
       margin: 0;
       padding: 0;
@@ -27,125 +25,263 @@
     }
 
     body {
-      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
       line-height: 1.6;
       color: #2d3436;
       background: #f8f9fa;
     }
 
-    .header-tech {
+    .sophisticated-header {
       background: var(--tech-gradient);
-      padding: 1rem 2rem;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 2rem 1rem;
+      text-align: center;
       position: relative;
       overflow: hidden;
     }
 
-    .header-tech::before {
+    .sophisticated-header::after {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: 2px;
+      background: rgba(255,255,255,0.3);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+
+    .value-proposition {
+      color: #fff;
+      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .sub-headline {
+      color: #00B4D8;
+      font-size: 1.4rem;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+    }
+
+    .industry-nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1.5rem 0;
+      background: rgba(0,0,0,0.05);
+      backdrop-filter: blur(5px);
+    }
+
+    .industry-nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+
+    .industry-nav a:hover {
+      background: rgba(0,180,216,0.1);
+    }
+
+    .hero-section {
+      position: relative;
+      max-width: 1400px;
+      margin: 2rem auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+
+    .hero-section img {
       width: 100%;
-      height: 3px;
-      background: var(--secondary);
-      animation: techGlow 2s infinite;
+      height: 600px;
+      object-fit: cover;
+      object-position: center 30%;
     }
 
-    @keyframes techGlow {
-      0% { opacity: 0.3; }
-      50% { opacity: 1; }
-      100% { opacity: 0.3; }
+    .action-container {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      display: flex;
+      gap: 1rem;
+      z-index: 1000;
     }
 
-    /* Remaining CSS */
+    .action-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,54,102,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .main-content {
+      max-width: 1200px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .seo-rich-section {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .region-highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .region-card {
+      padding: 1.5rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid var(--secondary);
+    }
+
+    .tech-specs {
+      margin: 2rem 0;
+      padding: 2rem;
+      background: var(--tech-gradient);
+      color: white;
+      border-radius: 12px;
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      padding: 3rem 2rem;
+      margin-top: 5rem;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .hero-section img {
+        height: 400px;
+      }
+    }
   </style>
-  <!-- Remaining CSS -->
 </head>
 <body>
-  <header class="header-tech">
+  <header class="sophisticated-header">
     <div class="header-content">
-      <h1 style="color:white;font-size:2.5rem;margin-bottom:1rem;">Solar-Powered Smart Street Lighting Solutions for Oman</h1>
-      <p class="value-statement" style="color:#00B4D8;font-size:1.2rem;font-weight:500;max-width:800px;margin:0 auto;">
-        Transform Your Urban Spaces with IoT-Enabled Solar Street Lights - 60% Energy Savings Guaranteed Across Muscat, Salalah & All Omani Regions
-      </p>
+      <h1 class="value-proposition">Smart Solar Street Lighting Solutions for Oman</h1>
+      <p class="sub-headline">Cutting-Edge IoT-Enabled Systems Delivering 70% Energy Savings Across Muscat, Salalah & All Regions</p>
     </div>
   </header>
 
-  <nav class="tech-nav">
-    <!-- Navigation with same links -->
+  <nav class="industry-nav">
+    <a href="https://www.alwejhagroup.com/">Home</a>
+    <a href="https://www.alwejhagroup.com/area-of-expertise">Expertise</a>
+    <a href="https://www.alwejhagroup.com/our-services">Services</a>
+    <a href="https://www.alwejhagroup.com/contact">Contact</a>
   </nav>
 
   <section class="hero-section">
-    <img src="mechanical-electrical-plumbing-oman.webp" 
+    <img src="solar-street-lighting-oman.webp" 
          alt="Solar Street Lighting Installation in Oman"
          loading="lazy"
-         srcset="mechanical-electrical-plumbing-oman-480.webp 480w,
-                 mechanical-electrical-plumbing-oman-800.webp 800w"
+         srcset="solar-street-lighting-oman-480.webp 480w,
+                 solar-street-lighting-oman-800.webp 800w"
          sizes="(max-width: 600px) 100vw, 80vw">
-    <div class="cta-overlay">
-      <a href="tel:+96879271055" class="cta-pulse">Call Now</a>
-      <a href="https://wa.me/96879271055" class="cta-pulse">WhatsApp</a>
-      <a href="mailto:business@alwejhagroup.com" class="cta-pulse">Email</a>
-      <a href="https://www.alwejhagroup.com/" class="cta-main">Visit New Website</a>
-    </div>
   </section>
 
-  <main class="content-grid">
-    <section class="seo-content">
-      <h2>Solar Street Light Experts Serving All Oman Regions</h2>
-      <p>As Oman's leading MEP contractors specializing in renewable energy solutions, Alwejha Group delivers cutting-edge solar street lighting systems across...</p>
-      
-      <div class="region-grid">
-        <article class="region-card">
-          <h3>Muscat Solar Lighting Projects</h3>
-          <p>Municipal solar street lighting solutions designed for Muscat's urban infrastructure...</p>
-        </article>
-        <!-- Other regions -->
-      </div>
+  <main class="main-content">
+    <div class="content-grid">
+      <section class="seo-rich-section">
+        <h2>Oman's Premier Solar Lighting Experts</h2>
+        <p>As certified MEP specialists in renewable energy, Alwejha Group delivers customized solar street lighting solutions across all Oman regions including:</p>
+        
+        <div class="region-highlights">
+          <div class="region-card">
+            <h3>Muscat City Lighting</h3>
+            <p>Smart municipal solutions for Oman's capital city infrastructure</p>
+          </div>
+          <div class="region-card">
+            <h3>Salalah Coastal Projects</h3>
+            <p>Corrosion-resistant systems for southern coastal regions</p>
+          </div>
+          <div class="region-card">
+            <h3>Sohar Industrial Zones</h3>
+            <p>High-output lighting for industrial area security</p>
+          </div>
+        </div>
 
-      <h3>Why Oman Chooses Our Solar Solutions</h3>
-      <ul class="tech-features">
-        <li>▹ IoT-Enabled Smart Lighting Controls</li>
-        <li>▹ Desert-Weather Resistant Design</li>
-        <li>▹ 24/7 Remote Monitoring Systems</li>
-      </ul>
+        <h3>Advanced Technical Specifications</h3>
+        <div class="tech-specs">
+          <ul>
+            <li>• IP68 Weatherproof Rating</li>
+            <li>• 5000K Natural Daylight LEDs</li>
+            <li>• 10-Year Performance Warranty</li>
+            <li>• Remote Monitoring Capabilities</li>
+          </ul>
+        </div>
 
-      <div class="specs-table">
-        <!-- Technical specifications -->
-      </div>
-    </section>
+        <h3>Why Choose Alwejha Group?</h3>
+        <ul>
+          <li>✓ Oman Ministry Certified Installations</li>
+          <li>✓ 24/7 Local Technical Support</li>
+          <li>✓ Customized Regional Solutions</li>
+          <li>✓ Smart Grid Integration Ready</li>
+        </ul>
+      </section>
 
-    <aside class="seo-keywords">
-      <h4>Solar Lighting Services in Oman:</h4>
-      <ul>
-        <li>Solar Street Light Installation Muscat</li>
-        <li>Outdoor Solar Lighting Salalah</li>
-        <!-- More keywords -->
-      </ul>
-    </aside>
+      <aside class="seo-sidebar">
+        <div class="cta-box">
+          <h4>Contact Our Experts</h4>
+          <a href="tel:+96879271055" class="action-btn">📞 +968 7927 1055</a>
+          <a href="https://wa.me/+96879271055" class="action-btn">💬 WhatsApp Chat</a>
+          <a href="mailto:business@alwejhagroup.com" class="action-btn">📧 Email Us</a>
+          <a href="https://www.alwejhagroup.com/" class="action-btn">🌐 Visit Main Website</a>
+        </div>
+      </aside>
+    </div>
   </main>
 
-  <footer class="tech-footer">
-    <!-- Footer content -->
+  <footer>
+    <p>&copy; 2025 Alwejha Group - Leading Solar Solutions Provider in Oman</p>
+    <p>Muscat | Salalah | Sohar | Nizwa | All Oman Regions</p>
   </footer>
 
-  <!-- Action Buttons Sticky Container -->
   <div class="action-container">
     <a href="tel:+96879271055" class="action-btn">📞 Call</a>
-    <a href="https://wa.me/96879271055" class="action-btn">💬 WhatsApp</a>
+    <a href="https://wa.me/+96879271055" class="action-btn">💬 WhatsApp</a>
     <a href="mailto:business@alwejhagroup.com" class="action-btn">📧 Email</a>
-    <a href="https://www.alwejhagroup.com/" class="action-main">🌐 Visit Website</a>
+    <a href="https://www.alwejhagroup.com/" class="action-btn">🌐 Visit Site</a>
   </div>
-
-  <!-- Performance Optimization -->
-  <script defer>
-    if ('loading' in HTMLImageElement.prototype) {
-      const images = document.querySelectorAll('img[loading="lazy"]');
-      images.forEach(img => {
-        img.src = img.dataset.src;
-      });
-    }
-  </script>
 </body>
 </html>
